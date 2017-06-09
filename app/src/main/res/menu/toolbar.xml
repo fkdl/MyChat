@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_friend"
+        app:showAsAction="never|withText"
+        android:icon="@drawable/add"
+        android:title="发起聊天"/>
+    <item
+        android:id="@+id/loginout"
+        android:title="退出登录"
+        app:showAsAction="never"/>
+</menu>

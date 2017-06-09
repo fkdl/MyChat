@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ml_primary">#f63a21</color>
+    <color name="ml_primary_dark">#c82712</color>
+    <color name="ml_text_primary">#ffffff</color>
+    <color name="ml_accent">#defa5053</color>
+
+    <color name="ml_text_red">#ff3f43</color>
+    <color name="ml_text_white">#ffffff</color>
+    <color name="ml_text_black">#232323</color>
+    <color name="ml_white">#ffffff</color>
+    <color name="ml_gray">#9c9c9c</color>
+    <color name="ml_yellow">#ff842d</color>
+    <color name="ml_blue">#0a95ff</color>
+
+    <color name="ml_bg_white">#e8e8e8</color>
+    <color name="ml_text_bg_black">#9c232323</color>
+
+    <color name="ml_btn_normal">#e8e8e8</color>
+    <color name="ml_btn_pressed">#d8d8d8</color>
+    <color name="ml_btn_red_normal">#ff1e1e</color>
+    <color name="ml_btn_red_pressed">#d71a1a</color>
+    <color name="ml_btn_green_normal">#43af00</color>
+    <color name="ml_btn_green_pressed">#348303</color>
+</resources>

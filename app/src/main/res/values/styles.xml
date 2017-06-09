@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Application基本主题 -->
+    <style name="MLTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--状态栏颜色 -->
+
+        <!--Toolbar 颜色-->
+        <item name="colorPrimary">#0a95ff</item>
+        <!--表示CheckBox、EditText、Switch、Spinner、RadioButton等控件激活时候的色调-->
+        <item name="colorAccent">@color/ml_accent</item>
+        <!--同上-->
+        <item name="colorControlActivated">@color/ml_accent</item>
+
+
+        <!--设置不显示ActionBar-->
+        <item name="windowActionBar">false</item>
+        <!--设置不显示Title-->
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:textColor">@color/ml_text_black</item>-->
+    </style>
+
+    <!--自定义主题-->
+    <style name="MLTheme.Red">
+
+    </style>
+
+
+    <!-- Toolbar弹出菜单样式 -->
+    <style name="MLTheme.PupopMenu" parent="@style/ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">#ffffff</item>
+        <item name="android:textColor">#232323</item>
+    </style>
+
+    <style name="MLTheme.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--Toolbar字体颜色-->
+        <item name="colorControlNormal">@color/ml_text_primary</item>
+        <item name="android:textColor">@color/ml_text_primary</item>
+    </style>
+
+    <style name="MLTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MLTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+</resources>
